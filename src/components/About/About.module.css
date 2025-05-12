@@ -1,0 +1,49 @@
+@import "../../vars.css";
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-primary);
+  margin: 10px 10%;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+}
+.title {
+  font-size: 2rem;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  margin: auto;
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+}
+.content {
+  font-size: clamp(1rem, 4vw, 2rem);
+  width: 100%;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.description {
+  padding: 10px;
+  font-size: 20px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+.description ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+.description ul li {
+  font-size: 1em;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.description ul li p {
+  font-size: 0.75em;
+}

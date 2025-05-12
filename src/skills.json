@@ -1,0 +1,34 @@
+[
+  {
+    "title": "html",
+    "imgUrl": "src/assets/html.png"
+  },
+  {
+    "title": "css",
+    "imgUrl": "src/assets/css-3.png"
+  },
+  {
+    "title": "javascript",
+    "imgUrl": "src/assets/javascript.png"
+  },
+  {
+    "title": "react",
+    "imgUrl": "src/assets/react.png"
+  },
+  {
+    "title": "C-programming",
+    "imgUrl": "src/assets/cprogramming.png"
+  },
+  {
+    "title": "bootstrap",
+    "imgUrl": "src/assets/bootstrap.png"
+  },
+  {
+    "title": "Responsive-Design",
+    "imgUrl": "src/assets/responsive.png"
+  },
+  {
+    "title": "ms-Office",
+    "imgUrl": "src/assets/msoffice.png"
+  }
+]

@@ -1,0 +1,36 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10%;
+  overflow: hidden;
+  border: 1px solid var(--color-primary);
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.title {
+  color: var(--color-bg);
+  font-size: 40px;
+  background-color: var(--color-primary);
+  padding: 10px;
+  border: 1px solid var(--color-primary);
+  width: fit-content;
+  margin: auto;
+}
+
+.projects {
+  color: var(--color-primary);
+  display: flex;
+  border: inherit;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  gap: 10px;
+}
+

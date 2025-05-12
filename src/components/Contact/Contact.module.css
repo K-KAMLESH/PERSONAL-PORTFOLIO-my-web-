@@ -1,0 +1,118 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  border: 1px solid var(--color-primary);
+  margin: 10px 10%;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+}
+.title {
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  margin-left: 10px;
+  gap: 10px;
+}
+.inputContainer{
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  width: 100%;
+  color: var(--color-primary);
+}
+.form input,
+textarea {
+  padding: 5px;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  width: 100%;
+  border: 1px solid var(--color-primary);
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.submit {
+  border: 1px solid var(--color-bg);
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+  cursor: pointer;
+  width: 100%;
+}
+.submit:hover {
+  border: 1px solid var(--color-primary);
+
+  color: var(--color-primary);
+  background-image: linear-gradient(
+    to right,
+
+    var(--color-primary),
+    var(--color-bg),
+    var(--color-primary)
+  );
+  transition: all 0.3s ease-in-out;
+}
+.form input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--color-primary);
+  background-color: transparent;
+}
+::placeholder {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid var(--color-primary);
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+img {
+  width: 30px;
+}
+@media screen and (max-width: 600px) {
+  .contact {
+    flex-direction: column;
+  }
+  .form {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .icons img {
+    width: 7vw;
+  }
+}
