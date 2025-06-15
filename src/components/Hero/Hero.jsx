@@ -3,12 +3,19 @@ import styles from "./Hero.module.css";
 function Hero() {
   return (
     <section className={styles.container}>
-
       <div className={styles.left}>
         <p>hi i am:</p>
         <h1 className={styles.name}>kamlesh</h1>
-        <h2 className={styles.profession}>web developer</h2>
-        <div className={styles.hireMe}>hire me!</div>
+        <h2 className={styles.profession}>FrontEnd Developer</h2>
+        <div className={styles.hireMeButton}>
+          <div className={styles.hireMe}>
+            <a href="#contact">hire me!</a>
+          </div>
+          <div className={styles.downloadButtton}>
+            {" "}
+            <a href="KAMLESH RESUME UPDATED(2024).pdf">Resume!</a>
+          </div>
+        </div>
       </div>
       <div className={styles.right}>
         <img
@@ -17,7 +24,6 @@ function Hero() {
           alt="heroImage"
         />
       </div>
-  
     </section>
   );
 }

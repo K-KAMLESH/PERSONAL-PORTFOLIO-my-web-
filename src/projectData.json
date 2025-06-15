@@ -1,33 +1,52 @@
 [
   {
-    "title": "Weather App",
+    "title": "Calculator App",
     "imgUrl": "src/assets/projectImage.jpg",
     "githubLink": "github/link",
-    "description": "descriptionkjd jdksjd jdksdjs",
+    "description": "Responsive App using HTML ,CSS and javascriptand ",
     "demo": "demo/link"
   },
   {
-    "title": "Weather App",
+    "title": "Music App",
     "imgUrl": "src/assets/projectImage.jpg",
-
     "githubLink": "github/link",
-    "description": "descriptionkjd jdksjd jdksdjs",
+    "description": "Responsive App using HTML ,CSS and javascriptand",
     "demo": "demo/link"
   },
   {
-    "title": "Weather App",
+    "title": "Contact Form Integration",
     "imgUrl": "src/assets/projectImage.jpg",
-
     "githubLink": "github/link",
-    "description": "descriptionkjd jdksjd jdksdjs",
+    "description": "using HTML,Css ,javascript",
     "demo": "demo/link"
   },
+
   {
     "title": "Weather App",
     "imgUrl": "src/assets/projectImage.jpg",
-
     "githubLink": "github/link",
-    "description": "descriptionkjd jdksjd jdksdjs",
+    "description": "  fatches live weather data,using weather API , HTML ,CSS and javascriptand ",
+    "demo": "demo/link"
+  },
+  {
+    "title": "Password Generator",
+    "imgUrl": "src/assets/projectImage.jpg",
+    "githubLink": "github/link",
+    "description": "using HTML, CSS, Javascript ",
+    "demo": "demo/link"
+  },
+  {
+    "title": "Personal Portfolio",
+    "imgUrl": "src/assets/projectImage.jpg",
+    "githubLink": "github/link",
+    "description": "built from scratch with modular React components and smooth Animation",
+    "demo": "demo/link"
+  },
+  {
+    "title": " ToDo App",
+    "imgUrl": "src/assets/projectImage.jpg",
+    "githubLink": "github/link",
+    "description": "using HTML,Css ,javascript",
     "demo": "demo/link"
   }
 ]

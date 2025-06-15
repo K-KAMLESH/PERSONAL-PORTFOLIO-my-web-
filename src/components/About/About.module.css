@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
   color: var(--color-primary);
   margin: 10px 10%;
   border: 1px solid var(--color-primary);
@@ -27,23 +26,32 @@
 }
 .description {
   padding: 10px;
-  font-size: 20px;
+  font-size: clamp(0.76rem, 5vw, 1.2rem);
   list-style-type: none;
   list-style-position: inside;
 }
 .description ul {
-  list-style-type: disc;
   list-style-position: inside;
   padding-left: 20px;
 }
 
 .description ul li {
   font-size: 1em;
-
+  justify-content: flex-start;
   display: flex;
   align-items: center;
   gap: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 .description ul li p {
   font-size: 0.75em;
+  line-height: 20px;
+  padding: 0;
+}
+
+h5 {
+  display: block;
+  border-bottom: 1px solid var(--color-primary);
 }

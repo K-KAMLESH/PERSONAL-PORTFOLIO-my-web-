@@ -7,13 +7,11 @@
   position: relative;
   align-items: center;
   padding: 10px;
-
 }
 
-
-
 .title {
-  font-size: 2rem;
+  font-family: wallpoet;
+  font-size: clamp(1.5em, 3vw, 3em);
   font-weight: 600;
   color: var(--color-primary);
   text-decoration: none;
@@ -64,8 +62,12 @@
     display: block;
     width: 100%;
     text-align: center;
-    border: inherit;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-bg);
     padding: 10px;
+  }
+  .link a {
+    color: var(--color-bg);
   }
   .activeLinks {
     display: flex;

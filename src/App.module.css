@@ -1,4 +1,6 @@
+
 @import "./vars.css";
+
 .container {
   background-color: var(--color-bg);
   font-family: poppins;
@@ -31,31 +33,43 @@
   }
 }
 
-/* .slide {
-  margin: 10px;
-  width: 10%;
-  height: 20px;
-  background-color: var(--color-primary);
-  position: relative;
-  animation: popUp linear 2s infinite alternate;
-
-  left: 0;
-}
-@keyframes popUp {
-  form {
-    left: -200px;
-  }
-  to {
-    left: 90%;
-  }
-}
-
- */
-
 .slide {
   width: 75%;
   height: 10px;
   background-color: var(--color-primary);
   margin: 10px auto;
   border-radius: 50px;
+}
+
+.sideBar {
+  position: fixed;
+  top: 50%;
+  border: 1px solid var(--color-primary);
+  width: 5%;
+  padding: 0 10px;
+  left: 0;
+}
+
+#icon {
+  position: fixed;
+  top: 40%;
+  left: 10px;
+  color: var(--color-primary);
+  font-size: 50px;
+  cursor: pointer;
+  animation: popUp linear 1s infinite;
+  transition: width 0.5s linear;
+  font-size: clamp(20px, 4vw, 50px);
+}
+
+@keyframes popUp {
+  0% {
+    top: 40%;
+  }
+  50% {
+    top: 41%;
+  }
+  100% {
+    top: 40%;
+  }
 }

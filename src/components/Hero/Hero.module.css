@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Kumar+One&family=Kumar+One+Outline&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @import "../../vars.css";
 .container {
+
   border: 1px solid var(--color-primary);
   margin: 0px 10%;
   display: flex;
@@ -8,9 +9,7 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-
 }
-
 
 .left p {
   color: var(--color-primary);
@@ -19,25 +18,31 @@
   width: fit-content;
   padding: 10px;
 }
-.left h1 {
+.left .name {
   text-transform: uppercase;
   margin-top: 20px;
   color: var(--color-primary);
-  font-size: clamp(2.5em, 6vw, 8em);
-
+  font-size: clamp(2.62em, 6vw, 8em);
   border: 1px solid var(--color-primary);
   width: fit-content;
 
   padding: 10px;
 }
-.left h2 {
+.left .profession {
   width: fit-content;
   border: 1px solid var(--color-primary);
   padding: 10px;
   margin-top: 20px;
   color: var(--color-primary);
-  font-size: clamp(1.3em, 3vw, 4em);
+  font-size: clamp(1.23em, 3vw, 4em);
 }
+.hireMeButton {
+  display: flex;
+  color: var(--color-primary);
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .hireMe {
   width: fit-content;
   padding: 10px 20px;
@@ -47,6 +52,33 @@
   font-size: clamp(0.9em, 2vw, 2em);
   border-radius: 50px;
 }
+.hireMe a,
+.downloadButtton a {
+  color: var(--color-bg);
+  text-decoration: none;
+}
+.hireMe a:hover,
+.downloadButtton a:hover {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.downloadButtton {
+  width: fit-content;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  font-size: clamp(0.9em, 2vw, 2em);
+  border-radius: 50px;
+}
+.downloadButtton:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 50px;
+  border-left: 2px solid var(--color-primary);
+  border-right: 2px solid var(--color-primary);
+}
 .hireMe:hover {
   background-color: transparent;
   color: var(--color-primary);
@@ -54,6 +86,12 @@
   padding: 10px 50px;
   border-left: 2px solid var(--color-primary);
   border-right: 2px solid var(--color-primary);
+}
+.hireMe:active,
+.downloadButtton:active {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  transition: none;
 }
 
 .right {
@@ -77,10 +115,15 @@
   .left {
     width: 100%;
   }
-  .hireMe {
+  .hireMe,
+  .downloadButtton {
     width: 100%;
     text-align: center;
   }
+  .hireMeButton {
+    flex-direction: column;
+  }
+
   .right {
     width: 80%;
   }

@@ -97,11 +97,14 @@ textarea:focus {
   padding: 10px;
   width: 100%;
   margin-top: 10px;
+  flex-wrap: wrap;
+}
+.socialIcon{
+  color:var(--color-primary);
+  font-size: clamp(20px,7vw,35px);
 }
 
-img {
-  width: 30px;
-}
+
 @media screen and (max-width: 600px) {
   .contact {
     flex-direction: column;
@@ -109,10 +112,5 @@ img {
   .form {
     margin-top: 10px;
     margin-right: 10px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .icons img {
-    width: 7vw;
   }
 }

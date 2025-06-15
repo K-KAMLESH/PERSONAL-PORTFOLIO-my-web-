@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
+import projectsData from "../../projectData.json";
 function About() {
   return (
     <section className={styles.container} id="about">
@@ -23,31 +24,20 @@ function About() {
             designing intuitive UIs to integrating APIs and deploying responsive
             apps, I’ve worked hands-on with React, JavaScript, HTML/CSS, and
             tools like EmailJS and GitHub.
-            <li>Some of my key projects include: </li>
+            <h4>Some of my key projects include: </h4>
           </li>
-          <ul>
-            {" "}
-            <li>
-              {" "}
-              <h4>🌤️ Weather App - </h4>{" "}
-              <p>fetches live weather data with a clean, responsive UI.</p>
-            </li>
-            <li>
-              {" "}
-              <h4>🧑‍💻 Personal Portfolio -</h4>{" "}
-              <p>
-                built from scratch with modular React components and smooth
-                animations.
-              </p>
-            </li>
-            <li>
-              {" "}
-              <h4>📬 Contact Form Integration -</h4>{" "}
-              <p>
-                using EmailJS for real-time email handling, no backend needed.
-              </p>
-            </li>
-          </ul>
+          <div>
+            <ul className={styles.keyProjects}>
+              {projectsData.map((project, index) => {
+                return (
+                  <li key={index} className={styles.keyProject}>
+                    <h5>{project.title} - </h5>
+                    <p> {project.description}</p>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
           <li>
             {" "}
             - I’m constantly learning, improving, and aiming to build beautiful,
@@ -60,3 +50,4 @@ function About() {
 }
 
 export default About;
+

@@ -1,4 +1,4 @@
-import React from "react";
+import socials from "../../socialLinks.json";
 import styles from "./Contact.module.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -92,36 +92,14 @@ function Contact() {
       </div>
 
       <div className={styles.icons}>
-        <a href="https://www.facebook.com/share/1F37B8c2ju/" target="_blank">
-          <img src="../../src/assets/facebook.svg" alt="facebookIcon" />
-        </a>
-        <a
-          href="https://www.instagram.com/kamlesh.exe?igsh=dm9uNHZjbTR4ODQ2"
-          target="_blank"
-        >
-          <img src="../../src/assets/instagram.svg" alt="instagramIcon" />
-        </a>
-        <a href="http://wa.me/7877449689" target="_blank">
-          <img src="../../src/assets/whatsapp.svg" alt="WhatsappIcon" />
-        </a>
-        <a
-          href="https://www.snapchat.com/add/etherealpulse?share_id=zLEyMwm0_Bk&locale=en-GB"
-          target="_blank"
-        >
-          <img src="../../src/assets/snapchat.svg" alt="SnapchatIcon" />
-        </a>
-        <a href="https://www.threads.net/@kamlesh.exe" target="_blank">
-          <img src="../../src/assets/thread.svg" alt="ThreadIcon" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/kamlesh-bairwa-2398a3191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-        >
-          <img src="../../src/assets/linkedin.svg" alt="LinkedinIcon" />
-        </a>
-        <a href="https://github.com/KAMLESH-566778" target="_blank">
-          <img src="../../src/assets/github.svg" alt="GithubIcon" />
-        </a>
+        {socials.map((social, index) => {
+          return (
+            <a key={index} href={social.targetUrl} className={styles.socialIcon}>
+              {" "}
+              <i className={`fa-brands fa-${social.title} `}></i>{" "}
+            </a>
+          );
+        })}
       </div>
     </footer>
   );
