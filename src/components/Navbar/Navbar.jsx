@@ -13,8 +13,8 @@ function Navbar() {
           className={styles.menuBtn}
           src={
             openMenu
-              ? "src/assets/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
-              : "src/assets/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+              ? "assets/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+              : "assets/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
           }
           alt="menuBtn"
           onClick={() => setOpenMenu(!openMenu)}
