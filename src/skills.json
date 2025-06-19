@@ -1,19 +1,19 @@
 [
   {
     "title": "html",
-    "imgUrl": "src/assets/html.png"
+    "imgUrl": "assets/html.png"
   },
   {
     "title": "css",
-    "imgUrl": "src/assets/css-3.png"
+    "imgUrl": "assets/css-3.png"
   },
   {
     "title": "javascript",
-    "imgUrl": "src/assets/javascript.png"
+    "imgUrl": "assets/javascript.png"
   },
   {
     "title": "react",
-    "imgUrl": "src/assets/react.png"
+    "imgUrl": "assets/react.png"
   },
   {
     "title": "C-programming",
@@ -21,14 +21,14 @@
   },
   {
     "title": "bootstrap",
-    "imgUrl": "src/assets/bootstrap.png"
+    "imgUrl": "assets/bootstrap.png"
   },
   {
     "title": "Responsive-Design",
-    "imgUrl": "src/assets/responsive.png"
+    "imgUrl": "assets/responsive.png"
   },
   {
     "title": "ms-Office",
-    "imgUrl": "src/assets/msoffice.png"
+    "imgUrl": "assets/msoffice.png"
   }
 ]

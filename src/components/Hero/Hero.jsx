@@ -20,7 +20,7 @@ function Hero() {
       <div className={styles.right}>
         <img
           className={styles.heroImage}
-          src="../../src/assets/heroImage.png"
+          src="assets/heroImage.png"
           alt="heroImage"
         />
       </div>
