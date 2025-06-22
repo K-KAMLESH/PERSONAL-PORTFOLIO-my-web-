@@ -12,7 +12,6 @@ const App = () => {
     "bisque",
     "orange",
     "tomato",
-    "brown",
     "silver",
     "aliceBlue",
   ];
