@@ -18,7 +18,7 @@ function Resume() {
         <div className={styles.experienceBox}>
           <h2 className={styles.subtitle}>Experience</h2>
           <p className={styles.experience}>
-            1. Frontend Developer - Self-Driven Projects | Jan 2024 – Present
+            1. Frontend Developer - Self-Driven Projects | Jan 2025 – Present
           </p>
           <p className={styles.experience}>
             2. Created real-world projects such as a Weather App, Portfolio

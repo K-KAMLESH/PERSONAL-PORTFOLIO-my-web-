@@ -3,21 +3,21 @@
     "title": "Calculator App",
     "imgUrl": "assets/calculator.jpg",
     "githubLink": "https://github.com/K-KAMLESH/CALCULATOR-APP",
-    "description": "Responsive App using HTML ,CSS and javascriptand ",
+    "description": "Responsive App using HTML , CSS and javascript ",
     "demo": "https://k4kamlesh-calculator.netlify.app/"
   },
   {
     "title": "Music App",
     "imgUrl": "assets/music.jpg",
     "githubLink": "https://github.com/K-KAMLESH/MUSIC-APP",
-    "description": "Responsive App using HTML ,CSS and javascriptand",
+    "description": "Responsive App using HTML , CSS and javascript",
     "demo": "https://k4kamlesh-music.netlify.app/"
   },
   {
     "title": "Contact Form Integration",
     "imgUrl": "assets/contactForm.jpg",
     "githubLink": "github/link",
-    "description": "using HTML,Css ,javascript",
+    "description": "using HTML , Css , javascript",
     "demo": "https://k4kamlesh-contact-form.netlify.app/"
   },
 
@@ -25,14 +25,14 @@
     "title": "Weather App",
     "imgUrl": "assets/weather.jpg",
     "githubLink": "https://github.com/K-KAMLESH/WEATHER-APP",
-    "description": "  fatches live weather data,using weather API , HTML ,CSS and javascriptand ",
+    "description": "  fatches live weather data using weather API , HTML, CSS and javascript ",
     "demo": "https://k4kamlesh-weather-app.netlify.app/"
   },
   {
     "title": "Password Generator",
     "imgUrl": "assets/passwordGenerator.jpg",
     "githubLink": "https://github.com/K-KAMLESH/RANDOM-PASSWOR-GENERATOR",
-    "description": "using HTML, CSS, Javascript ",
+    "description": "using HTML , CSS, Javascript ",
     "demo": "https://k4kamlesh-password-generator.netlify.app/"
   },
   {
@@ -46,7 +46,7 @@
     "title": " ToDo App",
     "imgUrl": "assets/todo.jpg",
     "githubLink": "https://github.com/K-KAMLESH/TODO-APP",
-    "description": "using HTML,Css ,javascript",
+    "description": "using HTML , Css , javascript",
     "demo": "https://k4kamlesh-todo-app.netlify.app/"
   }
 ]

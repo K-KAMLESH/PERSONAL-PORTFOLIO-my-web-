@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.left}>
-        <p>hello I am:</p>
+        <p>hello I am :</p>
         <h1 className={styles.name}>kamlesh</h1>
         <h2 className={styles.profession}>FrontEnd Developer</h2>
         <div className={styles.hireMeButton}>

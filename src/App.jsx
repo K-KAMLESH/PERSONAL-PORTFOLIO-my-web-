@@ -14,6 +14,9 @@ const App = () => {
     "tomato",
     "silver",
     "aliceBlue",
+    "pink",
+    "dodgerblue",
+    "darkgoldenrod",
   ];
 
   const changeColor = (color) => {

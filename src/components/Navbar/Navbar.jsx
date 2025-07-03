@@ -5,9 +5,7 @@ function Navbar() {
 
   return (
     <nav className={styles.container}>
-      <a className={styles.title} href="#">
-        K$KAMLESH
-      </a>
+      <div className={styles.title}>K$KAMLESH</div>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -40,4 +38,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
