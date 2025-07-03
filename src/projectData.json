@@ -1,52 +1,52 @@
 [
   {
     "title": "Calculator App",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/calculator.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/CALCULATOR-APP",
     "description": "Responsive App using HTML ,CSS and javascriptand ",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-calculator.netlify.app/"
   },
   {
     "title": "Music App",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/music.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/MUSIC-APP",
     "description": "Responsive App using HTML ,CSS and javascriptand",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-music.netlify.app/"
   },
   {
     "title": "Contact Form Integration",
-    "imgUrl": "assets/projectImage.jpg",
+    "imgUrl": "assets/contactForm.jpg",
     "githubLink": "github/link",
     "description": "using HTML,Css ,javascript",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-contact-form.netlify.app/"
   },
 
   {
     "title": "Weather App",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/weather.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/WEATHER-APP",
     "description": "  fatches live weather data,using weather API , HTML ,CSS and javascriptand ",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-weather-app.netlify.app/"
   },
   {
     "title": "Password Generator",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/passwordGenerator.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/RANDOM-PASSWOR-GENERATOR",
     "description": "using HTML, CSS, Javascript ",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-password-generator.netlify.app/"
   },
   {
     "title": "Personal Portfolio",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/portfolio.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/PERSONAL-PORTFOLIO-my-web-",
     "description": "built from scratch with modular React components and smooth Animation",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh.netlify.app/"
   },
   {
     "title": " ToDo App",
-    "imgUrl": "assets/projectImage.jpg",
-    "githubLink": "github/link",
+    "imgUrl": "assets/todo.jpg",
+    "githubLink": "https://github.com/K-KAMLESH/TODO-APP",
     "description": "using HTML,Css ,javascript",
-    "demo": "demo/link"
+    "demo": "https://k4kamlesh-todo-app.netlify.app/"
   }
 ]

@@ -94,9 +94,14 @@ function Contact() {
       <div className={styles.icons}>
         {socials.map((social, index) => {
           return (
-            <a key={index} href={social.targetUrl} className={styles.socialIcon}>
+            <a
+              key={index}
+              href={social.targetUrl}
+              className={styles.socialIcon}
+            >
               {" "}
               <i className={`fa-brands fa-${social.title} `}></i>{" "}
+              {/* <img src={social.imageUrl} alt="" /> */}
             </a>
           );
         })}

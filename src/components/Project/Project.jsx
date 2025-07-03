@@ -13,10 +13,10 @@ function Project({ project, index }) {
 
       <p className={styles.projectDescription}>{project.description}</p>
       <div className={styles.projectLinks}>
-        <a className={styles.projectView} href="#">
+        <a className={styles.projectView} href={project.demo}>
           View Project
         </a>
-        <a className={styles.projectLink} href="#">
+        <a className={styles.projectLink} href={project.githubLink}>
           github
         </a>
       </div>

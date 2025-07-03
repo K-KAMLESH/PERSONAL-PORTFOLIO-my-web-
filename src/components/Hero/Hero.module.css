@@ -1,7 +1,5 @@
-
 @import "../../vars.css";
 .container {
-
   border: 1px solid var(--color-primary);
   margin: 0px 10%;
   display: flex;
@@ -43,7 +41,8 @@
   justify-content: space-evenly;
 }
 
-.hireMe {
+.hireMe,
+.downloadButton {
   width: fit-content;
   padding: 10px 20px;
   margin-top: 20px;
@@ -51,18 +50,19 @@
   color: var(--color-bg);
   font-size: clamp(0.9em, 2vw, 2em);
   border-radius: 50px;
+  text-decoration: none;
 }
-.hireMe a,
-.downloadButtton a {
+/* .hireMe a,
+.downloadButton a {
   color: var(--color-bg);
   text-decoration: none;
-}
-.hireMe a:hover,
-.downloadButtton a:hover {
+} */
+/* .hireMe a:hover,
+.downloadButton a:hover {
   color: var(--color-primary);
   text-decoration: none;
-}
-.downloadButtton {
+} */
+/* .downloadButton {
   width: fit-content;
   padding: 10px 20px;
   margin-top: 20px;
@@ -70,15 +70,9 @@
   color: var(--color-bg);
   font-size: clamp(0.9em, 2vw, 2em);
   border-radius: 50px;
-}
-.downloadButtton:hover {
-  background-color: transparent;
-  color: var(--color-primary);
-  transition: all 0.3s ease-in-out;
-  padding: 10px 50px;
-  border-left: 2px solid var(--color-primary);
-  border-right: 2px solid var(--color-primary);
-}
+  text-decoration: none;
+} */
+.downloadButton:hover,
 .hireMe:hover {
   background-color: transparent;
   color: var(--color-primary);
@@ -87,11 +81,18 @@
   border-left: 2px solid var(--color-primary);
   border-right: 2px solid var(--color-primary);
 }
+/* .hireMe:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 50px;
+  border-left: 2px solid var(--color-primary);
+  border-right: 2px solid var(--color-primary);
+} */
 .hireMe:active,
-.downloadButtton:active {
+.downloadButton:active {
   background-color: var(--color-primary);
   color: var(--color-bg);
-  transition: none;
 }
 
 .right {
@@ -116,7 +117,7 @@
     width: 100%;
   }
   .hireMe,
-  .downloadButtton {
+  .downloadButton {
     width: 100%;
     text-align: center;
   }

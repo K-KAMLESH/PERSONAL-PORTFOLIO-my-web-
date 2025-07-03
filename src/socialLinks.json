@@ -1,34 +1,37 @@
 [
   {
-    "title": "facebook",
-    "targetUrl": "https://www.facebook.com/share/1F37B8c2ju/"
-  },
-  {
     "title": "threads",
-    "targetUrl": "https://www.threads.net/@kamlesh.exe"
+    "targetUrl": "https://www.threads.net/@kamlesh.exe",
+    "imageUrl": "public/assets/thread.svg"
   },
   {
     "title": "instagram",
-    "targetUrl": "https://www.instagram.com/kamlesh.exe?igsh=dm9uNHZjbTR4ODQ2"
+    "targetUrl": "https://www.instagram.com/kamlesh.exe?igsh=dm9uNHZjbTR4ODQ2",
+    "imageUrl": "public/assets/instagram.svg"
   },
   {
     "title": "whatsapp",
-    "targetUrl": "http://wa.me/7877449689"
+    "targetUrl": "http://wa.me/7877449689",
+    "imageUrl": "public/assets/whatsapp.svg"
   },
   {
     "title": "github",
-    "targetUrl": "https://github.com/K-KAMLESH"
+    "targetUrl": "https://github.com/K-KAMLESH",
+    "imageUrl": "public/assets/github.svg"
   },
   {
     "title": "snapchat",
-    "targetUrl": "https://www.snapchat.com/add/etherealpulse?share_id=zLEyMwm0_Bk&locale=en-GB"
+    "targetUrl": "https://www.snapchat.com/add/etherealpulse?share_id=zLEyMwm0_Bk&locale=en-GB",
+    "imageUrl": "public/assets/snapchat.svg"
   },
   {
     "title": "telegram",
-    "targetUrl": "#"
+    "targetUrl": "https://t.me/KAMLESH_INDIAN_TELIGRAM",
+    "imageUrl": "public/assets/telegram.svg"
   },
   {
     "title": "linkedin",
-    "targetUrl": "https://www.linkedin.com/in/kamlesh-bairwa-2398a3191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    "targetUrl": "https://www.linkedin.com/in/kamlesh-bairwa-2398a3191?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "imageUrl": "public/assets/linkedin.svg"
   }
 ]

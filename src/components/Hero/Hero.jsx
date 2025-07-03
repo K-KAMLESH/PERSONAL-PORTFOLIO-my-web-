@@ -8,13 +8,15 @@ function Hero() {
         <h1 className={styles.name}>kamlesh</h1>
         <h2 className={styles.profession}>FrontEnd Developer</h2>
         <div className={styles.hireMeButton}>
-          <div className={styles.hireMe}>
-            <a href="#contact">hire me!</a>
-          </div>
-          <div className={styles.downloadButtton}>
-            {" "}
-            <a href="KAMLESH RESUME UPDATED(2024).pdf">Resume!</a>
-          </div>
+          <a href="#contact" className={styles.hireMe}>
+            hire me!
+          </a>{" "}
+          <a
+            href="Kamlesh-Bairwa-Resume-Updated2025.pdf"
+            className={styles.downloadButton}
+          >
+            Resume!
+          </a>
         </div>
       </div>
       <div className={styles.right}>
